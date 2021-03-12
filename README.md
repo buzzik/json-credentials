@@ -22,7 +22,7 @@ npm i json-credentials
 const { getCreds } = require('json-credentials');
 (async () =>{
   const credsData = await getCreds(['login', 'password', 'secret']);
-  console.log(`Login - ${credsData.login}, Password - ${credsData.password}`, Secret - ${credsData.secret}`)
+  console.log(`Login - ${credsData.login}, Password - ${credsData.password}, Secret - ${credsData.secret}`)
 })();
 
 ```
