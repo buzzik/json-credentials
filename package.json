@@ -1,0 +1,30 @@
+{
+  "name": "json-credentials",
+  "version": "1.0.0",
+  "description": "Node.js module for storing/reading credentials data in JSON file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/buzzik/json-credentials.git"
+  },
+  "keywords": [
+    "json",
+    "credentials",
+    "generator",
+    "generate",
+    "store",
+    "save"
+  ],
+  "author": "Buzzik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buzzik/json-credentials/issues"
+  },
+  "homepage": "https://github.com/buzzik/json-credentials#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
